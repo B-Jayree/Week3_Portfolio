@@ -16,25 +16,27 @@
 
         }
 
-        .same-margin{
+        .same-margin {
             margin: auto;
 
         }
-        .div-1 h2 span{
+
+        .div-1 h2 span {
             color: #4359ad;
         }
 
-        .div-1 {  
+        .div-1 {
             text-align: justify;
             width: 60%;
             padding: 0px 100px 0px 30px;
 
         }
-        .div-1 p{
-          
+
+        .div-1 p {
+
             color: gray;
             font-size: 14px;
-          
+
         }
 
         .div-2 {
@@ -42,22 +44,67 @@
             display: flex;
             justify-content: center;
         }
-        .div-2 img{
+
+        .div-2 img {
             border-radius: 8px;
         }
-        
-         #skills-section{
+
+        #skills-section {
             text-align: center;
         }
-        .skill-container{
+
+        .skill-container {
             display: flex;
             justify-content: center;
+            height: 80vh;
         }
-        .skill-card{
+
+        .skill-card {
             background-color: #ffffff;
             color: black;
             width: 30%;
             margin: auto 15px;
+            border-radius: 6px;
+            padding: 80px 3px 30px 3px;
+        }
+
+        #work-section {
+            text-align: center;
+        }
+
+        .work-container {
+            display: flex;
+            justify-content: center;
+            color: grey;
+            height: 70vh;
+        }
+        .work-content img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+        }
+
+        .work-content {
+            border: 1px solid grey;
+            width: 27.75%;
+            margin: auto 30px;
+            border-radius: 5px;
+        }
+        .work-content p{
+            padding: 50px 20px 10px 12px;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: justify;
+        }
+        .work-content button{
+            background-color: transparent;
+            color: gray;
+            /*border: .5px solid gray !important;*/
+            margin: 10px 0px;
+            padding: 10px 15px;
+            cursor: pointer;
+           /* border-radius: 3px;*/
+            border: none;
         }
     </style>
 
@@ -70,9 +117,9 @@
             <div class="same-margin div-1">
                 <div class="content">
                     <H2>John <span>Doe.</span></H2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima magnam facere adipisci tempora
-                        ipsa distinctio voluptates et illum magni! Sit hic in eveniet corrupti atque omnis, earum
-                        ducimus quasi.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea fugit eveniet cumque aut iusto
+                        possimus et velit illum quia vitae explicabo assumenda repellat, ad ratione, quis, alias eos
+                        consequuntur illo. </p>
                 </div>
             </div>
             <div class="same-margin div-2">
@@ -88,23 +135,60 @@
         <h1>Specialized In:</h1>
         <div class="skill-container">
             <div class="skill-card skill-1">
-            <h2>Skill 1</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere autem, facilis eligendi a!</p>
+                <h2>Skill 1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis
+                    sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere
+                    autem, facilis eligendi a!</p>
+
+            </div>
+            <div class="skill-card skill-2">
+                <h2>Skill 2</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis
+                    sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere
+                    autem, facilis eligendi a!</p>
+
+            </div>
+            <div class="skill-card skill-3">
+                <h2>Skill 3</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis
+                    sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere
+                    autem, facilis eligendi a!</p>
+
+            </div>
 
         </div>
-        <div class="skill-card skill-2">
-            <h2>Skill 2</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere autem, facilis eligendi a!</p>
 
-        </div>
-        <div class="skill-card skill-3">
-            <h2>Skill 3</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor vitae provident reiciendis sint ratione beatae voluptas similique quidem, quibusdam officia voluptate commodi esse magni facere autem, facilis eligendi a!</p>
 
+    </section>
+    <section id="work-section">
+        <h1>Worked on:</h1>
+        <div class="work-container">
+            <div class="work-content work-1">
+                <img src="../Week3_Portfolio/images/pexels-teona-swift-6913820.jpg" height="200" width="334"
+                    alt="previous work 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt officiis ipsam itaque
+                    velit rerum aperiam voluptate illum hic corrupti! Nostrum culpa itaque deserunt ab ratione! Laborum
+                    at
+                    sit esse.</p>
+                <button>Continue reading</button>
+            </div>
+            <div class="work-content work-2"> <img src="../Week3_Portfolio/images/pexels-teona-swift-6913820.jpg"
+                    height="200" width="334" alt="previous work 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt officiis ipsam itaque
+                    velit
+                    rerum aperiam voluptate illum hic corrupti! Nostrum culpa itaque deserunt ab ratione! Laborum at sit
+                    esse.</p>
+                <button>Continue reading</button>
+            </div>
+            <div class="work-content work-3"><img src="../Week3_Portfolio/images/pexels-teona-swift-6913820.jpg"
+                    height="200" width="334" alt="previous work 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt officiis ipsam itaque
+                    velit
+                    rerum aperiam voluptate illum hic corrupti! Nostrum culpa itaque deserunt ab ratione! Laborum at sit
+                    esse. </p>
+                <button>Continue reading</button>
+            </div>
         </div>
-
-        </div>
-        
 
     </section>
 
