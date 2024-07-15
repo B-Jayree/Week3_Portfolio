@@ -4,14 +4,20 @@
 <head>
     <title>PORTFOLIO</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+       
+
+        }
         body {
             background-color: black;
             color: white;
-        }
+       }
 
         .container {
             display: flex;
-            height: 100vh;
+            height: 90vh;
 
 
         }
@@ -143,7 +149,40 @@
         .test-img img{
             border-radius: 50%;
         }
+        header{
+            text-align: center;
+            position: sticky;
+            top: 0;
+            padding: 10px 0px;
+            background-color: #4359ad;
+        }
+        .navigation-bar ul li{
+            display: inline;
+        }
+        .navigation-bar a{
+            color: white;
+            text-decoration: none;
+            padding: 0px 30px ;
+        }
+        .footer-container{
+            background-color:white;
+            color: black;
+            padding: 10px 0px;
+            text-align: center;
+        }
     </style>
+    <header>
+        <div class="navigation-bar">
+            <nav>
+                <ul>
+                  <li><a href="#home-section">Home</a></li>
+                  <li><a href="#skills-section">Skills</a></li>
+                  <li><a href="#work-section ">Work</a></li>
+                  <li><a href="#testimonials-section">Testimonials</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
 
 </head>
@@ -242,6 +281,9 @@
         </div>
 
     </section>
+    <footer class="footer-container">
+        <p>&copy;JohnDoe</p>
+    </footer>
 
 
 </body>
